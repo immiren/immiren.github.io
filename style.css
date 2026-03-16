@@ -21,13 +21,17 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
 input {
     background-color: var(--background-color);
     color: var(--text-color);
 }
 
 .option {
-    font-size: 1.2em;
     margin-bottom: 1em;
 }
 
