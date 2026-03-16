@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Random MR Team Comp Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="contents">
+        <h1>Random MR Team Comp Generator</h1>
+        <div class="option">
+            <label for="team-size">Number of players: </label>
+            <input type="number" id="team-size" name="team-size" value="6" min="0" max="6">
+        </div>
+        <div class="option">
+            <label for="even-roles">Even chance for roles(vs even chance for each character): </label>
+            <input type="checkbox" id="even-roles" name="even-roles" checked="true">
+        </div>
+        <div class="option">
+            <label for="min-strategists">Minimum strategists: </label>
+            <input type="number" id="min-strategists" name="min-strategists" value="2" min="0" max="6">
+        </div>
+        <button onclick="generateTeamComp()">Generate Team Comp</button>
+        <br>
+        <br>
+
+        <textarea id="output"></textarea>
+    </div>
+</body>

@@ -1,0 +1,47 @@
+:root {
+    --background-color: #2d2d2d;
+    --text-color: white;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    display: table-cell;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.option {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #4b29aa;
+    color: var(--text-color);
+    font-weight: bold;
+    border-radius: 1em;
+    padding: 1em
+}
+
+textarea {
+    width: 30em;
+    height: 10em;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
