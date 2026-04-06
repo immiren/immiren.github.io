@@ -4,7 +4,7 @@ const vanguards = [
 ]
 const duelists = ["Black Panther", "Black Widow", "Blade", "Daredevil", "Deadpool", "Elsa Bloodstone", "Hawkeye", "Hela", "Human Torch", "Iron Fist", "Iron Man", "Magik", "Mister Fantastic", "Moon Knight", "Namor", "Phoenix", "Psylocke", "Scarlet Witch", "Spider-Man", "Squirrel Girl", "Star-Lord", "Storm", "The Punisher", "Winter Soldier", "Wolverine"]
 const strategists = [
-    "Adam Warlock", "Cloak & Dagger", "Deadpool", "Gambit", "Invisible Woman", "Jeff the Land Shark", "Loki", "Luna Snow", "Mantis", "Rocket Raccoon", "Ultron"
+    "Adam Warlock", "Cloak & Dagger", "Deadpool", "Gambit", "Invisible Woman", "Jeff the Land Shark", "Loki", "Luna Snow", "Mantis", "Rocket Raccoon", "Ultron", "White Fox"
 ]
 const allCharacters = [...vanguards, ...duelists, ...strategists];
 
